@@ -1,0 +1,20 @@
+while True:
+    a=int(input("Enter a Number = "))
+    c=input("Enter Symbol = ")
+    b=int(input("Enter b Number = "))
+    def plus(a,b):
+        return a+b
+    def times(a,b):
+        return a*b
+    def division(a,b):
+        return a/b
+    def minus(a,b):
+        return a-b
+    if c=="+":
+        print("a + b = ",plus(a,b))
+    if c=="*":
+        print("a * b = ",times(a,b))
+    if c=="/":
+        print("a / b = ",division(a,b))
+    if c=="-"
+        print("a - b = ",minus(a,b))
